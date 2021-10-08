@@ -1,0 +1,65 @@
+/*editare documentului CSS, pentru stilizarea pagini web*/
+html {
+    font-family: Algerian, Ariel, sans-serif; /*alegerea fontului pentru titlul proiectului*/
+    display: inline-block; /*alinierea titlului in pagina web*/
+    text-align: center;
+  }
+  h1 {
+    font-size: 2rem; 
+    color: black; /*marimea fontului si culoarea definita*/
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #ED370E; /*definire culorea fundal*/
+  }
+  body {
+    margin: 0;
+  }
+  .content {
+    padding: 30px;
+  }
+  .card-grid {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .card {
+    background-color: black;
+    box-shadow: 1.5px 1.5px 10px 1px rgba(140,140,140,.5);
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0eEDB2 /*editare butoane slider*/
+  }
+  .state {
+    font-size: 1.5rem;
+    color:#0CF041;
+  }
+  .slider {
+    -webkit-appearance: none; /* suprascis implicit pentru broswer*/
+    margin: 0 auto; /*alinierea cursorului*/
+    width: 100%;
+    height: 20px;
+    border-radius: 12px; /*setarea latime, lungime, frontiera pentru slider*/
+    background: #FFD65C; 
+    outline: none; /*setare culoare pentru slider*/
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /*formatarea pentru acces browser Ghrome,Opera,etc*/
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #034078;
+    cursor: grab; /*setare tip de cursor folosit*/
+  }
+  .switch {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
